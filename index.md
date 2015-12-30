@@ -8,6 +8,3 @@ tagline: My tech blog
 ![SuperK Logo](/assets/images/BenK_Avatar.png)
 
 Welcome to my technical blog where I share some of the technical things I do.  Enjoy!
-
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
