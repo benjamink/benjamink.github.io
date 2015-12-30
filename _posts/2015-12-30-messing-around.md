@@ -14,13 +14,12 @@ Well, quite simply, I just want to do some simple blogging with a plain text edi
 
 ##Here's Some Code
 Here's a little bit of GPIO Zero for all the haters out there...
-```
-#!/usr/bin/env python
 
-from gpiozero import LED
+    #!/usr/bin/env python
 
-led = LED(17)
+    from gpiozero import LED
 
-led.on()
-led.off()
-```
+    led = LED(17)
+
+    led.on()
+    led.off()
