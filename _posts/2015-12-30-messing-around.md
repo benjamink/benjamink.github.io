@@ -11,3 +11,16 @@ A friend of mine has been looking for a simple blogging platform that is friendl
 
 ## What do I Want to Do?
 Well, quite simply, I just want to do some simple blogging with a plain text editor (like my favorite, Vim) and manage the whole thing with Git.  I also don't want to be bothered with hosting my own server and managing all that.  Finally, I'm incredibly cheap so free appeals to me a great deal!
+
+##Here's Some Code
+Here's a little bit of GPIO Zero for all the haters out there...
+```
+#!/usr/bin/env python
+
+from gpiozero import LED
+
+led = LED(17)
+
+led.on()
+led.off()
+```
